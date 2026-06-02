@@ -2,7 +2,7 @@
 
 > An AI-powered agent built into the Tangerine mobile app that detects recurring charges, scores them by usage, and cancels unused subscriptions in one tap.
 
-Built at **Hackathon 2026** · Powered by **Claude AI** · Built on **Backboard.io**
+Built at **Hackathon 2026** 
 
 ---
 
@@ -68,7 +68,7 @@ A deliberate engineering choice: use rules wherever possible, AI only where rule
 - Sending cancellation emails via Gmail API
 - Plan tier comparison lookups
 
-**AI only (Claude) — fires only on user interaction (~$0.01/session):**
+**AI only — fires only on user interaction (~$0.01/session):**
 - Labelling unknown merchant names (e.g. `FGLD*SRVCS 8882341122`)
 - Writing plain-language explanations on the detail screen
 - Answering conversational follow-up questions ("what do I lose if I cancel X?")
